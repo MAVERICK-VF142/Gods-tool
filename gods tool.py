@@ -12,7 +12,7 @@ print("""
 ░╚═════╝░░╚════╝░╚═════╝░░░░╚═════╝░  ░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝
 """)
 print("Before running script run the command - $pip install -r requirements.txt")
-
+print("only the key logger is in working condition and others are in development")
 print("""
 1.key logger
 2.wifi DDOS(Under development)
