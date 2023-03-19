@@ -56,11 +56,7 @@ elif(switch == 1):
   """)
   home_dir = os.system("cd ~")
   p2 = subprocess.run('pwd',stdout=subprocess.PIPE, text=True)
-  print(p2.stdout)
-  p1 = subprocess.run('!pip install pynput',stdout=subprocess.PIPE, text=True)
-  print(p1.stdout.decode())
-  
-  
+  print(p2.stdout)  
   
   from pynput.keyboard import Key, Listener
   import logging
