@@ -15,7 +15,7 @@ print("Before running script run the command - $pip install -r requirements.txt"
 
 print("""
 1.key logger
-2.wifi DDOS
+2.wifi DDOS(Under development)
 """)
 
 # selecting of attack
