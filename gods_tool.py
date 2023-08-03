@@ -2,7 +2,6 @@ import os
 import subprocess
 
 import keylogger
-import DDOS
 print("""
 
 ░██████╗░░█████╗░██████╗░██╗░██████╗  ████████╗░█████╗░░█████╗░██╗░░░░░
@@ -29,9 +28,5 @@ if (switch == 1):
 
 elif(switch == 2):
   import hashcat
-  hashcat.hcat()
   
-
-elif(switch==3):
-  DDOS.Ds()
   
